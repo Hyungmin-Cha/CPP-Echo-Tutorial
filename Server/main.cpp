@@ -11,6 +11,7 @@ void ShowErrorMessage(string message) {			// 에러 핸들링 함수는 필수이다.
 }
 
 int main(void) {
+	cout << "[ TCP Echo Server Ver0.2 ]\n";
 	WSADATA wsaData;
 	SOCKET serverSocket, clientSocket;
 	SOCKADDR_IN serverAddress, clientAddress;
